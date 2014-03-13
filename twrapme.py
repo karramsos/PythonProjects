@@ -18,7 +18,7 @@ class TimedWrapMe(object):
             t_type[0] not in 'cma':
             raise TypeError, \
             "argument of 'c', 'm', or 'a' req'd"
-        return getattr(self, '_%s__%stime', % \
+        return getattr(self, '_%s__%stime' % \
             (self.__class__.__name__, t_type[0]))
 
     def gettimestr(self, t_type):
