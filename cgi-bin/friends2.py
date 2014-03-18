@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+# Start the built-in webserver in Python with this command: python -m CGIHTTPServer 8000 (where 8000 is the port number)
+
 import cgi
 
 header = 'Content-Type: text/html\n\n'
